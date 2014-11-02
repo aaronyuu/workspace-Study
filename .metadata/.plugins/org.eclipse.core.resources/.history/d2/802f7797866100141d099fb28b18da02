@@ -1,0 +1,19 @@
+package cn.yuchuanxi;
+
+import java.io.File;
+
+public class file {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file=new File("d:\\aa.txt");
+		File file2=new File("E:\\mulu");
+		
+		System.out.println(file.isDirectory());
+		System.out.println(file2.isFile());
+	}
+
+}
