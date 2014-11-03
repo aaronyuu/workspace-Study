@@ -61,7 +61,7 @@ $RECYCLE.BIN/
 *.msp
 
 
-.metadata
+.metadata/
 #Android
 # Built application files
 *.apk
