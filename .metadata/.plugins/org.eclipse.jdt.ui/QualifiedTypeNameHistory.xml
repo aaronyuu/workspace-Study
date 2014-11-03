@@ -37,4 +37,6 @@
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="cn.yuchuanxi.FileUtils"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
 </qualifiedTypeNameHistroy>

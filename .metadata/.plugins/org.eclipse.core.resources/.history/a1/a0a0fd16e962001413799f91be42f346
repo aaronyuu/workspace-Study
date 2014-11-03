@@ -75,7 +75,7 @@ public class FileUtils {
 
 		int i;
 		byte[] buf = new byte[1024 * 1024];
-		while ((i = dis.read(buf, 0, buf.length)) != -1) {
+		if ((i = dis.read(buf, 0, buf.length)) != -1) {
 			dos.write(buf, 0, i);
 			
 		}
@@ -100,11 +100,11 @@ public class FileUtils {
 
 		int i;
 		byte[] buf = new byte[1024 * 1024];
-		while ((i = bis.read(buf, 0, buf.length)) != -1) {
+		if ((i = bis.read(buf, 0, buf.length)) != -1) {
 			bos.write(buf, 0, i);
-			
+			bos.flush();
 		}
-		bos.flush();
+		
 		bos.close();
 		bis.close();
 	}
