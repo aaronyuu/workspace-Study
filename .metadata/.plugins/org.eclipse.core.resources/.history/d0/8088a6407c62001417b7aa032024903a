@@ -1,7 +1,0 @@
-package cn.yuchuanxi;
-
-public class TimeUtils {
-	public void timeUsed(){
-		
-	}
-}
